@@ -35,23 +35,23 @@ Ensure you have the following installed and configured:
 Before initializing Terraform, you need to create the **S3 bucket** and **DynamoDB table**.
 
 1️⃣ Create S3 Bucket for Terraform State
-Log in to AWS Console: Go to AWS Management Console.
-Search for "S3" in the AWS search bar and select "S3".
-Click "Create Bucket" (top-right corner).
-Configure Bucket Details:
+- Log in to AWS Console: Go to AWS Management Console.
+- Search for "S3" in the AWS search bar and select "S3".
+- Click "Create Bucket" (top-right corner).
+- Configure Bucket Details:
 ```
 Bucket Name: akshaybucketfordemo
 AWS Region: Select us-east-1.
 Block Public Access: Keep all options checked (Recommended for security).
 Versioning: Enable (Recommended for state tracking & recovery).
 ```
-Click "Create Bucket".
+- Click "Create Bucket".
 ✅ S3 bucket is now created and ready for Terraform state storage!
 
 2️⃣ Create DynamoDB Table for State Locking
-Search for "DynamoDB" in AWS Console and open DynamoDB.
-Click "Create Table" (top-right corner).
-Configure Table Settings:
+- Search for "DynamoDB" in AWS Console and open DynamoDB.
+- Click "Create Table" (top-right corner).
+- Configure Table Settings:
 ```
 Table Name: akshaydb
 Partition Key:
@@ -61,7 +61,7 @@ Sort Key: Leave unchecked.
 Set Capacity Mode:
 Select "On-demand (Recommended)".
 ```
-Click "Create Table".
+- Click "Create Table".
 ✅ DynamoDB table is now created and will be used for state locking!
 
 ---
