@@ -102,6 +102,4 @@ aws dynamodb scan --table-name akshaydb
 - [State Locking with DynamoDB](https://developer.hashicorp.com/terraform/language/settings/backends/s3#dynamodb-table-used-for-state-locking)
 
 ---
-### 🎯 Author
-[Akshay](https://github.com/akshay) 🚀
 
