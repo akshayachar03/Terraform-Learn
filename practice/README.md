@@ -6,12 +6,28 @@ This folder contains various Terraform practice exercises to help understand and
 
 ```
 practice/
-│── example-1/
+│── Example-1/
 │   ├── main.tf
 │   ├── variables.tf
 │   ├── terraform.tfvars
 │   ├── outputs.tf
 │── README.md
+
+│── Example-2/
+├── backend.tf
+├── main.tf
+├── outputs.tf
+├── terraform.tfvars
+├── variables.tf
+└── README.md
+
+│── Example-3/
+├── main.tf
+├── terraform.tfvars
+├── modules/
+│   ├── ec2_instance/
+│   │   ├── main.tf
+└── README.md
 ```
 
 ## Prerequisites
