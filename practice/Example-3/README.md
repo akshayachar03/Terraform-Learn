@@ -76,6 +76,10 @@ The current workspace is marked with an asterisk (*).
    ```bash
    terraform apply
    ```
+5. **Destroy Infrastructure**
+   ```bash
+   terraform destroy
+   ```
 
 For further details, refer to the [Terraform CLI Workspaces documentation](https://developer.hashicorp.com/terraform/cli/workspaces).
 
