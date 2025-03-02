@@ -28,6 +28,10 @@ practice/
 │   ├── ec2_instance/
 │   │   ├── main.tf
 └── README.md
+
+Example-4/
+│── main.tf
+└── README.md
 ```
 
 ## Prerequisites
