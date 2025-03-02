@@ -1,6 +1,6 @@
 # Terraform Workspaces Example
 
-This project demonstrates how to use Terraform workspaces to manage multiple environments (e.g., development, staging, production) using the same configuration. Workspaces provide isolated state management, allowing for consistent infrastructure deployments across different environments.
+This example demonstrates how to use Terraform workspaces to manage multiple environments (e.g., development, staging, production) using the same configuration. Workspaces provide isolated state management, allowing for consistent infrastructure deployments across different environments.
 
 ## Folder Structure
 
